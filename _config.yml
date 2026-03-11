@@ -14,32 +14,38 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy # the main title
+title: Ring0Shady # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: >-
+  Breaking Binaries. Engineering Malware. AD Hacking <br>
+  Mastering the Kernel. 
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: >-
+  Security Researcher focused on the architecture of modern threats. 
+  Specializing in Kernel-mode exploitation, custom malware development, 
+  and advanced Red Teaming methodologies. This space serves as a technical 
+  log for binary analysis, debugging deep system internals, and crafting 
+  low-level exploits from scratch.
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
 url: "https://ring0shady.github.io"
 
 github:
-  username: github_username # change to your GitHub username
+  username: ring0shady # change to your GitHub username
 
 twitter:
-  username: twitter_username # change to your Twitter username
+  username: hossam__shady # change to your Twitter username
 
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
-  email: example@domain.com # change to your email address
+  name: Hossam Ayman Shady
+  email: hossamshady24@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your Twitter homepage
-    - https://github.com/username # change to your GitHub homepage
+    - https://twitter.com/hossam__shady # change to your Twitter homepage
+    - https://github.com/ring0shady # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -98,7 +104,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/avatar.jpg
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
