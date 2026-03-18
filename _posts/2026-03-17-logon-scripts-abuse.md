@@ -1,6 +1,6 @@
 ---
 title: "Logon Scripts Abuse — Deep Dive into scriptPath, SYSVOL & GPO Persistence"
-date: 2026-03-18 14:00:00 +0200
+date: 2026-03-17 14:00:00 +0200
 categories: [Active Directory, DACL Attacks]
 tags: [active-directory, red-team, logon-scripts, scriptPath, SYSVOL, NETLOGON, dacl, persistence, lateral-movement, MITRE-T1037]
 description: "A complete offensive guide to abusing Active Directory logon scripts — covering scriptPath DACL misconfigurations, SYSVOL/NETLOGON write access, stub script hijacking, GPO-based persistence, detection, and real-world attack scenarios."
