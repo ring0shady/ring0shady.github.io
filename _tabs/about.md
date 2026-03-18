@@ -60,5 +60,7 @@ I am a passionate **offensive security specialist** focused on identifying and e
 ## 📫 Get in Touch
 
 Feel free to reach out for collaboration, opportunities, or technical discussions.
-
+<i class="fab fa-linkedin"></i> [LinkedIn](https://www.linkedin.com/in/hossam-shady-123330193/)  
+<i class="fab fa-x-twitter"></i> [Twitter](https://twitter.com/hossam__shady)  
+<i class="fas fa-envelope"></i> [Email](mailto:hossamshady24@gmail.com)
 ---
