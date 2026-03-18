@@ -68,7 +68,7 @@ Defined in [MS-ADA3](https://learn.microsoft.com/en-us/openspecs/windows_protoco
 - Batch files (`*.bat`, `*.cmd`)
 - Executable programs (`*.exe`)
 - VBScript and JScript via Windows Script Host
-- [KiXtart](http://www.kixtart.org/) scripts
+- [KiXtart](https://www.kixtart.org/) scripts
 
 > **Important:** `scriptPath` does **not** support PowerShell directly — but you can invoke PowerShell from within `.bat` or `.vbs` files.
 
