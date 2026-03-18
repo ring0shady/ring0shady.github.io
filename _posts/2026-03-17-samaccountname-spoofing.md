@@ -1,6 +1,6 @@
 ---
 title: "sAMAccountName Spoofing: From Domain User to Domain Admin (CVE-2021-42278 & CVE-2021-42287)"
-date: 2026-03-18 13:00:00 +0200
+date: 2026-03-17 13:00:00 +0200
 categories: [Active Directory, Privilege Escalation]
 tags: [active-directory, kerberos, cve, red-team, windows, nopac, impacket, privilege-escalation, domain-admin]
 description: "A deep technical walkthrough of the noPac attack chain — abusing CVE-2021-42278 and CVE-2021-42287 to escalate from any domain user to Domain Admin."
