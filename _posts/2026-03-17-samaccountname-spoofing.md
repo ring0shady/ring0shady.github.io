@@ -730,3 +730,7 @@ The core takeaways for defenders:
 - [cube0x0/noPac — GitHub](https://github.com/cube0x0/noPac)
 - [MITRE ATT&CK — T1068](https://attack.mitre.org/techniques/T1068/)
 - [Elastic Detection Rule — SamAccountName Spoofing](https://www.elastic.co/guide/en/security/8.19/potential-privileged-escalation-via-samaccountname-spoofing.html)
+
+
+
+Keep Going and read more attacks , 
