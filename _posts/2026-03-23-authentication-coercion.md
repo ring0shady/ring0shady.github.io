@@ -5,7 +5,7 @@ categories: [Active Directory, NTLM Relay Attacks]
 tags: [authentication-coercion, ntlm-relay, petitpotam, printerbug, dfscoerce, shadowcoerce, coercer, active-directory, red-team, penetration-testing]
 description: "A comprehensive guide covering all known authentication coercion techniques in Active Directory environments. Includes tools, CVEs, practical examples from both Linux and Windows attack machines, and mitigation strategies."
 image:
-  path: /assets/img/posts/auth-coercion-banner.png
+  path: /assets/img/posts/auth-coercion-banner.jpg
   alt: Authentication Coercion Attack Flow
 pin: true
 ---
