@@ -756,6 +756,7 @@ While XOR can evade basic signature matching, sophisticated AV engines can brute
 
 **Step 1: Python AES Encryptor — `aes_encrypt.py`**
 
+{% raw %}
 ```python
 #!/usr/bin/env python3
 """
@@ -822,7 +823,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+{% endraw %}
 **Usage:**
 
 ```bash
@@ -1057,7 +1058,7 @@ Base64 decode (layer 3) → AES decrypt (layer 2) → XOR decrypt (layer 1) → 
 ```
 
 **Python Multi-Layer Encryptor — `multilayer_encrypt.py`:**
-
+{% raw %}
 ```python
 #!/usr/bin/env python3
 """
@@ -1126,6 +1127,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+{% endraw %}
 
 **C++ Multi-Layer Loader (conceptual) — `technique07_multilayer.cpp`:**
 
@@ -4319,6 +4321,7 @@ Operational security (OPSEC) determines whether your tooling survives in the rea
 
 **Rule 1: Unique Keys Per Engagement**
 
+{% raw %}
 ```python
 # WRONG: Reusing the same key across engagements
 xor_key = b"\x41\x42\x43\x44"
@@ -4327,6 +4330,7 @@ xor_key = b"\x41\x42\x43\x44"
 import os
 xor_key = os.urandom(16)  # New random key every time
 ```
+{% endraw %}
 
 **Rule 2: Randomize Identifiers**
 
