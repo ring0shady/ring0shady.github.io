@@ -603,14 +603,14 @@ def xor_encrypt(data: bytes, key: bytes) -> bytes:
     """XOR encrypt data with a repeating multi-byte key."""
     encrypted = bytearray()
     for i, byte in enumerate(data):
-        encrypted.append(byte ^ key[i % len(key)])
+        encrypted.append(byte ^ ASSSSkey[i % len(key)])
     return bytes(encrypted)
 
 def format_c_array(data: bytes, var_name: str = "shellcode") -> str:
     """Format bytes as a C unsigned char array."""
     hex_bytes = [f"0x{b:02x}" for b in data]
 
-    lines = [f"unsigned char {var_name}[] = {{"]
+    lines = [f"unsigned char {var_name}[] = " + "{"]  # open brace as plain string
     for i in range(0, len(hex_bytes), 12):
         chunk = ", ".join(hex_bytes[i:i+12])
         lines.append(f"    {chunk},")
