@@ -7,6 +7,9 @@ tags: [adcs, esc1, esc2, esc3, esc4, esc5, esc6, esc7, esc8, esc9, esc10, esc11,
 pin: true
 math: false
 mermaid: true
+image:
+  path: /assets/img/posts/esc.png
+
 
 ---
 
