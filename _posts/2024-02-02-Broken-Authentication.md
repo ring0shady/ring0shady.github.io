@@ -291,10 +291,10 @@ The application has **no lockout, no CAPTCHA, and no rate limiting** on the logi
 
 ```mermaid
 graph LR
-    A[Attacker] -->|1000 requests/minute| B[/api/login]
-    B -->|No rate limit| C{Password correct?}
-    C -->|No| D[Try next password]
-    C -->|Yes| E[Account Compromised!]
+    A[Attacker] -->|"1000 requests/minute"| B["/api/login"]
+    B -->|"No rate limit"| C{"Password correct?"}
+    C -->|No| D["Try next password"]
+    C -->|Yes| E["Account Compromised!"]
     D -->|Loop| B
 
     style A fill:#e74c3c,stroke:#c0392b,color:#fff
