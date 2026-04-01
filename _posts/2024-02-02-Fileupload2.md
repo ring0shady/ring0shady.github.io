@@ -1,6 +1,3 @@
-I understand now. You want everything inside a **single markdown code block** so you can copy it entirely. Here it is:
-
-````markdown
 ---
 title: "File Upload Vulnerabilities — A Complete Guide"
 description: "A comprehensive guide to understanding, exploiting, and mitigating insecure file upload vulnerabilities in modern web applications."
@@ -1967,7 +1964,4 @@ Insecure file upload remains one of the most **direct and high-impact** attack v
 
 ---
 
-*Last updated: January 15, 2024*
-*Author: Security Researcher*
-*License: MIT*
 ````
