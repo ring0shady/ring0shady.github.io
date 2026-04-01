@@ -1,5 +1,3 @@
-```markdown
-
 ---
 title: "File Upload Vulnerabilities — A Complete Guide"
 description: "A comprehensive guide to understanding, exploiting, and mitigating insecure file upload vulnerabilities in modern web applications."
