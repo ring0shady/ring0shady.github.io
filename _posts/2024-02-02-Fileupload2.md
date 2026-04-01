@@ -10,9 +10,7 @@ tags: [file-upload, web-security, owasp, bug-bounty, penetration-testing, rce]
 pin: true
 math: false
 mermaid: true
-image:
-  path: /assets/img/posts/file-upload-banner.png
-  alt: "Insecure File Upload Attack Illustration"
+
 ---
 
 ## What are File Upload Vulnerabilities?
