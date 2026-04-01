@@ -1,7 +1,7 @@
 ---
 title: "Active Directory Certificate Services (AD CS) Attacks — Complete Guide to All 11 ESC Techniques"
 description: "The most comprehensive guide to AD CS (Active Directory Certificate Services) attacks covering all 11 ESC techniques with step-by-step exploitation, enumeration, tools, commands, expected outputs, and remediation."
-date: 2024-02-01 10:00:00 +0000
+date: 2026-04-01 10:00:00 +0000
 categories: [Active Directory, Certificate Services]
 tags: [adcs, esc1, esc2, esc3, esc4, esc5, esc6, esc7, esc8, esc9, esc10, esc11, certipy, certify, privilege-escalation, active-directory]
 pin: true
