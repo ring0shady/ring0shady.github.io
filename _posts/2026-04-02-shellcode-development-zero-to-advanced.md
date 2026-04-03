@@ -1,6 +1,6 @@
 ---
 title: "Shellcode Development — From Zero to Bypassing Windows Defender in 2026"
-date: 2026-03-24 15:00:00 +0200
+date: 2026-04-02 15:00:00 +0200
 categories: [Malware Development, Red Team]
 tags: [shellcode, malware-development, windows-defender-bypass, edr-evasion, c-cpp, syscalls, process-injection, encryption, xor, aes, amsi-bypass, etw-patch, red-team]
 description: "A comprehensive guide to shellcode development in C/C++ — from understanding what shellcode is, through basic execution techniques, to advanced EDR/AV bypass methods including direct syscalls, indirect syscalls, sleep obfuscation, and process injection. Covers Windows 10 and 11 protections up to 2026."
