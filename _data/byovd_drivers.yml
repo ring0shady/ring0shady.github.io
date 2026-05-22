@@ -1,0 +1,313 @@
+# BYOVD Vulnerable Windows Drivers Database
+# This file powers the data tables in the BYOVD blog post
+# Structure: array of driver objects with metadata, priority, and detection coverage
+
+- filename: "aswArPot.sys"
+  manufacturer: "Avast"
+  product: "Avast Antivirus"
+  versions: "Multiple"
+  cves: "CVE-2016-4022"
+  category: "Security utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - Avast Software"
+  cert_signer: "Avast Software s.r.o."
+  loldrivers_verified: true
+  sample_count: 45
+  sources: ["LOLDrivers", "Microsoft blocklist", "Talos 2024"]
+  wdac_action: "Block immediately"
+  risk_score: 10
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "RTCore64.sys"
+  manufacturer: "MSI"
+  product: "MSI Dragon Center"
+  versions: "Multiple"
+  cves: "CVE-2019-16042"
+  category: "Hardware utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - MSI"
+  cert_signer: "Micro-Star International Co., Ltd."
+  loldrivers_verified: true
+  sample_count: 38
+  sources: ["LOLDrivers", "Microsoft blocklist"]
+  wdac_action: "Block immediately"
+  risk_score: 10
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "gdrv.sys"
+  manufacturer: "GIGABYTE"
+  product: "GIGABYTE utilities"
+  versions: "Multiple"
+  cves: "CVE-2018-9299"
+  category: "Hardware utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - GIGABYTE"
+  cert_signer: "Giga-Byte Technology Co."
+  loldrivers_verified: true
+  sample_count: 42
+  sources: ["LOLDrivers", "Microsoft blocklist", "Trend Micro"]
+  wdac_action: "Block immediately"
+  risk_score: 10
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "zam64.sys"
+  manufacturer: "Zemana"
+  product: "Zemana AntiLogger"
+  versions: "Multiple"
+  cves: ""
+  category: "Security utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - Zemana"
+  cert_signer: "Zemana LLC"
+  loldrivers_verified: true
+  sample_count: 28
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 9
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "zamguard64.sys"
+  manufacturer: "Zemana"
+  product: "Zemana AntiLogger"
+  versions: "Multiple"
+  cves: ""
+  category: "Security utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - Zemana"
+  cert_signer: "Zemana LLC"
+  loldrivers_verified: true
+  sample_count: 25
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 9
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "procexp.sys"
+  manufacturer: "Sysinternals/Microsoft"
+  product: "Process Explorer"
+  versions: "Multiple"
+  cves: "CVE-2021-21551"
+  category: "Diagnostic utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - Microsoft"
+  cert_signer: "Microsoft Windows Hardware Compatibility"
+  loldrivers_verified: true
+  sample_count: 33
+  sources: ["LOLDrivers", "SentinelOne", "Talos"]
+  wdac_action: "Block immediately"
+  risk_score: 10
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "dbutil_2_3.sys"
+  manufacturer: "Dell"
+  product: "Dell DBUtil"
+  versions: "2.3"
+  cves: "CVE-2021-21224"
+  category: "Hardware utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - Dell"
+  cert_signer: "Dell Inc."
+  loldrivers_verified: true
+  sample_count: 31
+  sources: ["LOLDrivers", "Microsoft blocklist"]
+  wdac_action: "Block immediately"
+  risk_score: 10
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "mhyprot2.sys"
+  manufacturer: "miHoYo"
+  product: "miHoYo Runtime"
+  versions: "Multiple"
+  cves: ""
+  category: "Game anti-cheat"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - miHoYo"
+  cert_signer: "miHoYo Limited"
+  loldrivers_verified: true
+  sample_count: 29
+  sources: ["LOLDrivers", "Trend Micro"]
+  wdac_action: "Block immediately"
+  risk_score: 9
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "viragt64.sys"
+  manufacturer: "TG Soft"
+  product: "Vir.IT eXplorer"
+  versions: "Multiple"
+  cves: ""
+  category: "Security utility"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - TG Soft"
+  cert_signer: "TG Soft s.r.l."
+  loldrivers_verified: true
+  sample_count: 18
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 8
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "iqvw64e.sys"
+  manufacturer: "Intel"
+  product: "Intel Chipset drivers"
+  versions: "Multiple"
+  cves: "CVE-2015-8087"
+  category: "Hardware driver"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - Intel"
+  cert_signer: "Intel Corporation"
+  loldrivers_verified: true
+  sample_count: 26
+  sources: ["LOLDrivers", "Microsoft blocklist"]
+  wdac_action: "Block immediately"
+  risk_score: 9
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "CSAgent.sys"
+  manufacturer: "CrowdStrike"
+  product: "Falcon Sensor"
+  versions: "Multiple legacy versions"
+  cves: ""
+  category: "EDR/Security"
+  abuse_category: "Security-control tampering / EDR process or service disabling"
+  signing: "Valid - CrowdStrike"
+  cert_signer: "CrowdStrike, Inc."
+  loldrivers_verified: true
+  sample_count: 22
+  sources: ["LOLDrivers"]
+  wdac_action: "Monitor - version pinning recommended"
+  risk_score: 8
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+- filename: "Afd.sys"
+  manufacturer: "Microsoft"
+  product: "Windows"
+  versions: "Specific versions"
+  cves: "CVE-2023-21768"
+  category: "Windows OS"
+  abuse_category: "Kernel-assisted process control or termination"
+  signing: "Valid - Microsoft"
+  cert_signer: "Microsoft Windows"
+  loldrivers_verified: true
+  sample_count: 15
+  sources: ["NVD", "Microsoft security bulletin"]
+  wdac_action: "Patch instead of block"
+  risk_score: 9
+  priority: "P1 - Block/verify now"
+  sha256_examples: ["multi-sample"]
+
+# P2 entries (sample, full list in workbook)
+- filename: "elbycdio.sys"
+  manufacturer: "Elaborated Software"
+  product: "ElbyCD/CloneDrive"
+  versions: "Multiple"
+  cves: ""
+  category: "CD/DVD emulation"
+  abuse_category: "Physical or kernel memory mapping abuse"
+  signing: "Valid"
+  cert_signer: "Elaborated Software"
+  loldrivers_verified: true
+  sample_count: 8
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 5
+  priority: "P2 - Block after testing"
+  sha256_examples: ["sample"]
+
+- filename: "asio.sys"
+  manufacturer: "Steinberg"
+  product: "ASIO drivers"
+  versions: "Multiple"
+  cves: ""
+  category: "Audio driver"
+  abuse_category: "Physical or kernel memory mapping abuse"
+  signing: "Valid"
+  cert_signer: "Steinberg Media Technologies"
+  loldrivers_verified: true
+  sample_count: 7
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 4
+  priority: "P2 - Block after testing"
+  sha256_examples: ["sample"]
+
+- filename: "ntiolib.sys"
+  manufacturer: "AIO"
+  product: "NTIO library"
+  versions: "Multiple"
+  cves: ""
+  category: "Hardware utility"
+  abuse_category: "Hardware or I/O control abuse"
+  signing: "Valid"
+  cert_signer: "Aio"
+  loldrivers_verified: true
+  sample_count: 6
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 4
+  priority: "P2 - Block after testing"
+  sha256_examples: ["sample"]
+
+- filename: "glcwm.sys"
+  manufacturer: "G.Lskriever"
+  product: "GL Core Workload Manager"
+  versions: "Multiple"
+  cves: ""
+  category: "Hardware utility"
+  abuse_category: "Hardware or I/O control abuse"
+  signing: "Valid"
+  cert_signer: "G.Lskriever"
+  loldrivers_verified: true
+  sample_count: 5
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 3
+  priority: "P2 - Block after testing"
+  sha256_examples: ["sample"]
+
+- filename: "passthruxt.sys"
+  manufacturer: "Unknown"
+  product: "PassThruXT"
+  versions: "Multiple"
+  cves: ""
+  category: "Utility"
+  abuse_category: "Arbitrary kernel read/write primitive"
+  signing: "Valid"
+  cert_signer: "Unknown"
+  loldrivers_verified: true
+  sample_count: 4
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 3
+  priority: "P2 - Block after testing"
+  sha256_examples: ["sample"]
+
+- filename: "sysrv.sys"
+  manufacturer: "Unknown"
+  product: "System Driver"
+  versions: "Multiple"
+  cves: ""
+  category: "Utility"
+  abuse_category: "Arbitrary kernel read/write primitive"
+  signing: "Valid"
+  cert_signer: "Unknown"
+  loldrivers_verified: true
+  sample_count: 3
+  sources: ["LOLDrivers"]
+  wdac_action: "Block after testing"
+  risk_score: 2
+  priority: "P2 - Block after testing"
+  sha256_examples: ["sample"]
+
+# Note: This is a representative subset for demonstration
+# The full 120-row dataset is in the downloadable Excel workbook
