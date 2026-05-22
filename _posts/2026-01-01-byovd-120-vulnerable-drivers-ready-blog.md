@@ -1,6 +1,6 @@
 ---
 title: "120 Vulnerable Windows Drivers: A Defender's Field Guide to BYOVD, WDAC, and the Microsoft Driver Blocklist"
-date: 2026-05-22 09:00:00 +0000
+date: 2026-05-01 09:00:00 +0000
 categories: [Defensive Research, BYOVD]
 tags: [byovd, wdac, app-control, loldrivers, vulnerable-drivers, edr, detection-engineering, windows-kernel, blocklist, threat-intel]
 pin: true
