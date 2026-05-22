@@ -5,9 +5,7 @@ categories: [Defensive Research, BYOVD]
 tags: [byovd, wdac, app-control, loldrivers, vulnerable-drivers, edr, detection-engineering, windows-kernel, blocklist, threat-intel]
 pin: true
 toc: true
-image:
-  path: /assets/img/hero-kernel-watch.svg
-  alt: Kernel Watch — 120 vulnerable Windows drivers, organised for defenders
+
 description: >-
   A defensive, blue-team-first field guide to 120 vulnerable Windows drivers
   abused in Bring Your Own Vulnerable Driver attacks — organised for WDAC /
