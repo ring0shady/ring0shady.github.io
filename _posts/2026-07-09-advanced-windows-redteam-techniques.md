@@ -5,9 +5,6 @@ categories: [Red Team, Windows Internals]
 tags: [edr-evasion, kernel-exploitation, windows-defender, post-exploitation, loader-development, byovd, syscalls, kerberos, lsass, process-injection, amsi, etw, malware-development, active-directory, penetration-testing]
 author: redteamer
 description: "A comprehensive academic reference on advanced Windows offensive techniques: EDR evasion via BYOVD, indirect syscalls, AMSI/ETW patching, kernel token stealing, handle-free LSASS dumping, Golden/Silver Tickets, WMI persistence, and advanced shellcode loaders."
-image:
-  path: /assets/img/posts/windows-redteam-banner.png
-  alt: "Advanced Windows Red Team Techniques"
 math: false
 mermaid: true
 toc: true
